@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github URL](https://github.com/Quakumei/FM-fylo-data-storage-component)
+- Live Site URL: [Live site URL](https://fm-fylo-data-storage-component-quakumei.vercel.app/)
 
 ## My process
 
