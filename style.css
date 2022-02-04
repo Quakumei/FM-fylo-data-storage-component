@@ -148,7 +148,7 @@ body {
 .progress {
     margin-top: 1rem;
 
-    background: rgba(255,255,255,0.1);
+    background: var(--blue-900);
     justify-content: flex-start;
     border-radius: 100px;
     align-items: center;
@@ -162,14 +162,17 @@ body {
 .progress-value {
     display:flex;
     animation: load 3s normal forwards;
-    box-shadow: 0 10px 40px -10px #fff;
+    box-shadow: 0 10px 40px -10px var(--blue-900);
     border-radius: 100px;
     background: var(--bar-gradient);
     height: 80%;
     width: 68%;
+    
     position: relative;
+    margin-left:-3px;
     align-items: center;
     justify-content: flex-end;
+
   }
 
 @keyframes load {
