@@ -64,6 +64,8 @@ body {
 
 .content-container {
     padding: 1.5rem;
+    height: fit-content;
+    align-self:center;
 }
 
 .content-container b {
@@ -71,6 +73,7 @@ body {
 }
 
 .fylo-menu {
+    width: 100%;
     background-color: var(--blue-800);
     border-radius: var(--radii);
     border-top-right-radius: calc(var(--radii)*6);
@@ -87,6 +90,8 @@ body {
 }
 
 .fylo-menu__button {
+    border: 0;
+
     position: relative;
     overflow: hidden;
     
